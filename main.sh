@@ -5,20 +5,20 @@
 
 # Kernel
 KERNEL_NAME="Perf"
-KERNEL_GIT="https://github.com/selfmusing/kernel_xiaomi_violet.git"
+KERNEL_GIT="https://github.com/Sakura-Devices/android_kernel_motorola_hanoip.git"
 KERNEL_BRANCH="14"
 
 # KernelSU
 KERNELSU_REPO="tiann/KernelSU"
-KSU_ENABLED="false"
+KSU_ENABLED="true"
 
 # Anykernel3
-ANYKERNEL3_GIT="https://github.com/kibria5/AnyKernel3.git"
+ANYKERNEL3_GIT="https://github.com/anoosragh69/AnyKernel3.git"
 ANYKERNEL3_BRANCH="master"
 
 # Build
-DEVICE_CODE="violet"
-DEVICE_DEFCONFIG="vendor/violet-perf_deconfig"
+DEVICE_CODE="hanoip"
+DEVICE_DEFCONFIG="vendor/hanoip-perf_deconfig"
 COMMON_DEFCONFIG=""
 DEVICE_ARCH="arch/arm64"
 
